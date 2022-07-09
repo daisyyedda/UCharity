@@ -3,5 +3,6 @@ Because of the recent outbreak of COVID-19, a considerable amount of people are 
 <br />
 <br />
 Link to site: https://daisyyedda.github.io/UCharity/all-resources/main.html <br />
+<br />
 A snapshot: <br />
-<img width="856" alt="Screen Shot 2022-07-09 at 1 48 20 PM" src="https://user-images.githubusercontent.com/65566095/178117217-b94380d9-2f5a-492a-94c8-4e900ea67d39.png">
+<img width="700" alt="Screen Shot 2022-07-09 at 1 48 20 PM" src="https://user-images.githubusercontent.com/65566095/178117217-b94380d9-2f5a-492a-94c8-4e900ea67d39.png">
