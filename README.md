@@ -1,7 +1,6 @@
 # UCharity
 Due to the recent outbreak of COVID-19, a considerable amount of people are spending less time socializing while suffering from mental health problems. It thus becomes utterly crucial for us to support each other during these difficult times. UCharity is a website which serves as a platform for people to learn more about, reach out to, and get involved in charities to seek support or empower the surroundings. Our mission is to bring people into an inclusive community.
 <br />
-The website is written in HTML/CSS/JavaScript.
 <br />
 Link to site: https://daisyyedda.github.io/UCharity/all-resources/main.html <br />
 <br />
