@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>UCharity About Us</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<style>
+body {
+	background-image: url("all-images/aboutus-pg.png");
+}
+
+section {
+    width: 350px;
+    height: 500px;
+    left: 80px;
+    top: 200px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 5px 4px #D8D8D8;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.title1, .title2, .title3 {
+    background: #ECA86F;
+    box-shadow: 0px 2px 4px rgba(198, 139, 89, 0.42);
+    border-radius: 7px;
+
+    width: 120px;
+    height: 36px;
+    left: 45px;
+
+    font-family: Roboto;
+    font-size: 30px;
+    line-height: 33px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.content1, .content2, .content3 {
+	padding: 20px 10px 10px 50px;
+    font-family: Roboto;
+    font-size: 26px;
+    line-height: 30px;
+    color: #00030D;
+    width: 300px;
+    height: 236px;
+    left: 476px;
+    top: 235px;
+}
+
+.email {
+	font-size: 22px;
+}
+
+.content1, .content2 {
+	padding-bottom: 20px;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+@media (min-width: 992px) {
+    .col-lg-5 {
+        float: left;
+    }
+    .col-lg-5 {
+        width: 33%;
+    }
+}
+
+
+/* Tablet view options */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6 {
+        float: left;
+    }
+    .col-md-6 {
+        width: 50%;
+    }
+}
+
+
+/* Mobile view options */
+
+@media (max-width: 767px) {
+	.col-sm-12 {
+        float: left;
+    }
+    .col-sm-12 {
+        width: 100%;
+    }
+}
+
+</style>
+<body>
+	<div class="container-md">
+	<nav class="navbar navbar-expand-lg navbar-light">
+	  <div class="container-fluid">
+		<a class="navbar-brand" href="main.html">
+			<img src="all-images/logo.png" width="140" height="40" class="d-inline-block align-top" alt="UCharity Logo"/>
+		</a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+			<li class="nav-item">
+			  <a class="nav-link active underline" aria-current="page" href="about-us.html">About Us</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="impact.html">Making An Impact</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="contact_us.html">Contact Us</a>
+			</li>
+		  </ul>
+		</div>
+	  </div>
+	</nav>
+
+	<div class = "col-lg-5 col-md-6 col-sm-12">
+		<section class = 'Mission'>
+			<h2 class = 'title1'>Mission</h2>
+			<p class = 'content1'>
+				<br>
+				<br>
+				<img src="all-images/mission.png" class="card-img-top" alt="Mission Image">
+				<br>
+				<br>
+				<br>
+				Bring people into an inclusive community.
+			</p>
+		</section>
+	</div>
+
+	<div class = "col-lg-5 col-md-6 col-sm-12">
+		<section class = 'Vision'>
+			<h2 class = 'title2'>Vision</h2>
+			<p class = 'content2'>
+				Expand our area of service globally, incorporating renowned organizations to make a bigger impact.
+				<br>
+				<br>
+				<img src="all-images/vision.png" class="card-img-top" alt="Vision Image">
+			</p>
+		</section>
+	</div>
+
+	<div class = "col-lg-5 col-md-6 col-sm-12">
+		<section class = 'JoinUs'>
+			<h2 class = 'title3'>Join Us</h2>
+			<p class = 'content3'>
+				Become a sponsor?
+				Want to find a job?
+				Volunteer opportunites?
+				Interested in social work?
+				<br>
+				<br>
+				Then feel free to 
+				JOIN US! 
+				Email us your resume:
+				<br>
+				<a href="mailto:ucharity_contact@gmail.com?subject=Subject&body=Message%20Us%20Your%20Needs" class = 'email'>ucharity_contact@gmail.com</a>
+			</p>
+		</section>
+	</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
